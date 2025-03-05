@@ -10,9 +10,9 @@
 - 笔记属性新增封面、摘要、发布时间、可视性等选项
 - slug部分修改成根据**SHA256截断法 + 随机盐**生成随机数，原本的拼音slug实在是不太友好。
 
-![image-20250305211155229](D:\database\GitHub\obsdian_plugs_mod\halo\image\image-20250305211155229.png)
+![image-20250305211155229](image\image-20250305211155229.png)
 
-![image-20250305210938277](D:\database\GitHub\obsdian_plugs_mod\halo\image\image-20250305210938277.png)
+![image-20250305210938277](image\image-20250305210938277.png)
 
 由于修改比较匆忙，直接在原编译后的js程序基础上，修改了自己需要的部分，没有从ts编译。关于ai自动生成摘要和标签建议配合Auto-title-tag使用
 
